@@ -1,0 +1,22 @@
+@font-face {
+    font-display: swap; 
+    font-family: '42dot Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/42dot-sans-v2-latin-regular.woff2') format('woff2'); 
+}
+  @font-face {
+    font-display: swap; 
+    font-family: '42dot Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/42dot-sans-v2-latin-700.woff2') format('woff2'); 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
