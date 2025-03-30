@@ -1,0 +1,26 @@
+.cabine__section-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 67px;
+}
+.cabine__section-content-paragraph{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;    
+}
+.cabine__section-content-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center; 
+    color: #333; 
+    opacity: 0.8;
+    margin-bottom: 114px;
+}

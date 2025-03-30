@@ -13,6 +13,7 @@
   src: url("../fonts/42dot-sans-v2-latin-700.woff2") format("woff2");
 }
 * {
+  font-family: "42dot Sans";
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -412,4 +413,33 @@
 .catalog__card-piece {
   color: #333;
   opacity: 0.7;
+}
+
+.cabine__section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 67px;
+}
+
+.cabine__section-content-paragraph {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.cabine__section-content-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #333;
+  opacity: 0.8;
+  margin-bottom: 114px;
 }/*# sourceMappingURL=main.css.map */
