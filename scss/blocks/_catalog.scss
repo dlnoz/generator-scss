@@ -1,0 +1,69 @@
+.catalog__content h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 64px;
+    font-family: '42dot Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.catalog__cards-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 58px;
+}
+.catalog__card{
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 332px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.catalog__card h3{
+    font-family: '42dot Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;    
+}
+.catalog__card p{
+    font-family: '42dot Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #333;
+    opacity: 0.9;
+}
+.catalog__card button{
+    cursor: pointer;
+    width: 213px;
+    height: 41px;
+    background-color: #4762FF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;    
+    margin-top: 14px;
+    transition: all 0.3s;
+}
+.catalog__card button:hover{
+    background-color: #fff;
+    color: #4762FF;
+    border: 1px solid #4762FF;
+    width: 210px;
+}
+.catalog__card-piece{
+    color: #333;
+    opacity: 0.7;
+}
